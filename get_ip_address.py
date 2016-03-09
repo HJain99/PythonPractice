@@ -7,5 +7,3 @@ def get_ip_address(url):
     startmarker = results.find('[')
     endmarker = results.find(']')
     return results[startmarker+1:endmarker]
-
-print(get_ip_address('flipkart.com'))
