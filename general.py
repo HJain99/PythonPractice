@@ -2,13 +2,13 @@ import os
 import sys
 import socket
 
+
 def create_dir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def write_file(path,data):
-    f = open(path,'w')
+
+def write_file(path, data):
+    f = open(path, 'w')
     f.write(data)
     f.close()
-
-    

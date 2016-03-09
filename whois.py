@@ -7,5 +7,3 @@ def get_whois(url):
     print(process)
     results = str(process.read())
     return results
-
-print(get_whois('reddit.com'))
